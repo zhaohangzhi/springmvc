@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @Controller
-public class testCon {
+public class TestController {
     @RequestMapping(value = "/test")
     public  void index(HttpServletRequest req, HttpServletResponse resp,String paramIn) throws IOException {
         System.out.println(paramIn);
